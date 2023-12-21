@@ -21,7 +21,7 @@ jobs:
       # Log Environment Variables
       - name: Log Environment Variables
         run: |
-          echo "COVERAGE_STATEMENTS=${{ env.COVERAGE_STATEMENTS }}"
-          echo "COVERAGE_BRANCHES=${{ env.COVERAGE_BRANCHES }}"
-          echo "COVERAGE_FUNCTIONS=${{ env.COVERAGE_FUNCTIONS }}"
-          echo "COVERAGE_LINES=${{ env.COVERAGE_LINES }}"
+          echo "COVERAGE_STATEMENTS=${{ vars.COVERAGE_STATEMENTS }}"
+          echo "COVERAGE_BRANCHES=${{ vars.COVERAGE_BRANCHES }}"
+          echo "COVERAGE_FUNCTIONS=${{ vars.COVERAGE_FUNCTIONS }}"
+          echo "COVERAGE_LINES=${{ vars.COVERAGE_LINES }}"
