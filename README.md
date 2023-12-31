@@ -16,3 +16,10 @@ To take advantage of [Docker Hub](https://hub.docker.com)'s Authenticated Rate L
 Under `.github/workflows/`, stores all the actions.
 
 Each yml file starts with three dashes `---`.
+
+
+### Container Structure
+
+There are two containers managed by docker-compose: app and db.
+
+`app` will wait for `db`.
