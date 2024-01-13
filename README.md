@@ -23,3 +23,9 @@ Each yml file starts with three dashes `---`.
 There are two containers managed by docker-compose: app and db.
 
 `app` will wait for `db`.
+
+Progress:
+
+```
+docker-compose run --rm app sh -c "python manage.py startapp recipe"
+```
