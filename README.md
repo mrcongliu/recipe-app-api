@@ -29,3 +29,11 @@ Progress:
 ```
 docker-compose run --rm app sh -c "python manage.py startapp recipe"
 ```
+Run Unit Tests:
+```
+docker-compose run --rm app sh -c "python manage.py test"
+```
+Apply Model Migrations:
+```
+docker-compose run --rm app sh -c "python manage.py makemigrations"
+```
